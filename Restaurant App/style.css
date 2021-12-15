@@ -1,0 +1,438 @@
+html {
+    width: 100%;
+}
+
+body{
+    font-family: sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    height: 100%
+}
+
+.body-home{
+    background-image: url('images/background/photo-1559925393-8be0ec4767c8.jpeg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals{
+    background-image: url('images/background/backker.jpeg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-drinks{
+    background-image: url('images/background/back.jpeg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-desert{
+    background-image: url('images/background/3149714.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/******************HEADER *******************/
+
+.header {
+    background-color: white;
+
+    width: 100%;
+    height: 10px;
+    top: 0;
+
+    position:absolute;
+    padding: 20px 10px 10px 20px;
+
+    text-align: center;
+
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: white;
+    width: 100%;
+    height: 10px;
+    padding: 20px 10px 10px 20px;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-radius: 10px;
+}
+
+#home-logo-img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+#wrapicon {
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+
+/******************Menue container *******************/
+
+
+
+#button-img{
+    width: 100x;
+    height: 80px;
+    display: block;
+
+    margin: auto;
+}
+
+.button-img {
+    padding-top: 500px;
+    padding-left: 45px;
+
+}
+
+
+/******************menu *******************/
+
+.body-menu{
+        background-image: url('images/background/c087d50f777a0e4ae47555d23def69e7.jpg');
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: transparent;
+    }
+/******************menu *******************/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid rgb(255, 255, 255);
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+#menu-top {
+    width: 70%;
+
+    display: block;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+/*****************meals page*******************/
+
+
+
+/***************meals list item 1****************/
+
+.meals-list a {
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.meals-list-item1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid rgb(255, 255, 255);
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 60%;
+    margin-top: 50px;
+}
+
+.meals-list-item1 h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+
+}
+
+
+
+.meals-list-item1 p{
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    margin-top: -7px;
+    padding-left: 15px;
+}
+
+/***************meals list item 2****************/
+
+.meals-list a {
+    text-decoration: none;
+
+}
+
+.meals-list-item2 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid rgb(255, 255, 255);
+    display: block;
+    margin: auto;
+    margin-bottom: auto;
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+.meals-list-item2 h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+
+}
+
+.meals-list-item2 i{
+    float: right;
+    color: white;
+    padding-right: 15px;
+}
+
+.meals-list-item2 p{
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    margin-top: -7px;
+    padding-left: 15px;
+}
+
+/***************meals list item 3****************/
+
+.meals-list a {
+    text-decoration: none;
+
+}
+
+.meals-list-item3 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid rgb(255, 255, 255);
+    display: block;
+    margin: auto;
+    margin-bottom: auto;
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+.meals-list-item3 h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+
+}
+
+.meals-list-item3 i{
+    float: right;
+    color: white;
+    padding-right: 15px;
+}
+
+.meals-list-item3 p{
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    margin-top: -7px;
+    padding-left: 15px;
+}
+
+/***************meals list item 4****************/
+
+.meals-list a {
+    text-decoration: none;
+
+}
+
+.meals-list-item4 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid rgb(255, 255, 255);
+    display: block;
+    margin: auto;
+    margin-bottom: auto;
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+.meals-list-item4 h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+
+}
+
+.meals-list-item4 i{
+    float: right;
+    color: white;
+    padding-right: 15px;
+}
+
+.meals-list-item4 p{
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    margin-top: -7px;
+    padding-left: 15px;
+}
+
+/************88button88*****************/
+
+#icon {
+    width: 50px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+/************item layout*****************/
+
+.w-layout {
+    margin-left: 100px;
+
+}
+
+.w-layout h1{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+}
+
+/*******************food images********************/
+.c-img img{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    float: right;
+    margin-right: 500px;
+}
+
+b.img{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    float: right;
+    margin-right: 500px;
+}
+
+
+
+
+/************btn layout*****************/
+.bclass-n {
+    background-image: url("images/background/noteback.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.btn {
+    padding-top: 0px;
+    margin: auto;
+}
+
+.order-n {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    padding-top: -10px;
+}
+
+
+/************Form layout*****************/
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 400px;;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #00026e;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgba(240, 240, 240, 0.089);
+  padding: 20px;
+  width: 450px;
+  margin: auto;
+}
+
+/************Thanks Page***********/
+
+.ty-body {
+    background-image: url("images/background/blue.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.h-icon img{
+    width: 75px;
+    position: absolute;
+    margin: auto;
+    float: left;
+}
+
+.ty {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.ty img{
+    width: 600px;
+    height: auto;
+    margin: auto;
+}
